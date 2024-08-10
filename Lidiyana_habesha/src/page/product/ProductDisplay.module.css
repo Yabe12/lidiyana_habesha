@@ -1,14 +1,18 @@
 /* src/components/ProductDisplay.module.css */
 .whole{
     display: flex;
+    height: 750px;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 .productContainer {
     overflow: hidden; /* Hide the scrollbars */
     position: relative;
+  
     margin-top: 70px;
     width: 100%; /* Full width of the container */
-    height: 250px; /* Adjust height as needed */
-    background-color: #fdfafb; /* Background color */
+    height: 350px; /* Adjust height as needed */
+    background-color: hsl(330, 50%, 99%); /* Background color */
   }
   
   .productWrapper {
@@ -16,7 +20,7 @@
     flex-wrap: nowrap;
     position: absolute;
     white-space: nowrap;
-    animation: scroll-left 30s linear infinite; /* Adjust duration as needed */
+    animation: scroll-left 20s linear infinite; /* Adjust duration as needed */
   }
   
   .productWrapper:hover {
@@ -25,13 +29,13 @@
   
   .productCard {
     flex: 0 0 auto; /* Prevent cards from shrinking */
-    margin-right: 20px; /* Space between cards */
+    margin-right: 100px; /* Space between cards */
     box-sizing: border-box;
   }
   
   @keyframes scroll-left {
     from {
-      transform: translateX(100%); /* Start from the right */
+      transform: translateX(15%); /* Start from the right */
     }
     to {
       transform: translateX(-100%); /* Move to the left */

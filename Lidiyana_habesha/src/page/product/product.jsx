@@ -134,33 +134,14 @@ const ProductDisplay = () => {
           rate="★★★☆☆"
           instagramLink="https://www.instagram.com/profile2"
         />
-        <ProductCard
-          name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
-          rate="★★★★★"
-          instagramLink="https://www.instagram.com/profile3"
-        />
-         <ProductCard
-          name="Product 1"
-          image={productImage}
-          rate="★★★★☆"
-          instagramLink="https://www.instagram.com/profile1"
-        />
-        <ProductCard
-          name="Product 2"
-          image="../../assets/images/c.png" // Replace with the correct image path
-          rate="★★★☆☆"
-          instagramLink="https://www.instagram.com/profile2"
-        />
-        <ProductCard
-          name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
-          rate="★★★★★"
-          instagramLink="https://www.instagram.com/profile3"
-        />
+      
         {/* Repeat as needed */}
       </div>
     </div>
+
+
+
+    
     </div>
   );
 };
