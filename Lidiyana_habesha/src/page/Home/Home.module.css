@@ -1,0 +1,26 @@
+/* src/components/HomeSection.module.css */
+.homeSection {
+    background-color: #f7e6eb;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  

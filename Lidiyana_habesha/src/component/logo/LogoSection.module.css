@@ -1,0 +1,30 @@
+.logoContainer {
+    overflow: hidden; /* Hide overflow so the animation doesn't go outside the container */
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    background-color: #fce4ec; /* Background color for contrast */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    white-space: nowrap; /* Prevents text from wrapping */
+    position: absolute;
+    font-family: 'Grey Qo', sans-serif;
+    font-size: 2.9rem; /* Adjust size as needed */
+    /* font-weight: bold; */
+    font-weight: 1000;
+    animation: moveLogo 10s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+
+  
+  @keyframes moveLogo {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left */
+    }
+  }
+  

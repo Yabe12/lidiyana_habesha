@@ -1,6 +1,7 @@
 // src/components/Header.js
 import React from 'react';
 import styles from './Header.module.css';
+import LogoSection from '../logo/LogoSection';
 
 const Header = () => {
   return (
@@ -9,6 +10,7 @@ const Header = () => {
         <div className={styles.logo}>
           LIDIYANA_HABEHA
         </div>
+        {/* <LogoSection/> */}
         <nav>
           <ul className={styles.navList}>
             <li><a href="#home">Home</a></li>
