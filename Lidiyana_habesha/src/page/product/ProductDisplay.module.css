@@ -1,0 +1,40 @@
+/* src/components/ProductDisplay.module.css */
+.whole{
+    display: flex;
+}
+.productContainer {
+    overflow: hidden; /* Hide the scrollbars */
+    position: relative;
+    margin-top: 70px;
+    width: 100%; /* Full width of the container */
+    height: 250px; /* Adjust height as needed */
+    background-color: #fdfafb; /* Background color */
+  }
+  
+  .productWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    white-space: nowrap;
+    animation: scroll-left 30s linear infinite; /* Adjust duration as needed */
+  }
+  
+  .productWrapper:hover {
+    animation-play-state: paused; /* Pause scrolling on hover */
+  }
+  
+  .productCard {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    margin-right: 20px; /* Space between cards */
+    box-sizing: border-box;
+  }
+  
+  @keyframes scroll-left {
+    from {
+      transform: translateX(100%); /* Start from the right */
+    }
+    to {
+      transform: translateX(-100%); /* Move to the left */
+    }
+  }
+  
