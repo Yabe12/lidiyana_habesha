@@ -4,6 +4,7 @@ import TextSection from '../../component/cards/Text/TextSection';
 import ImageSection from '../../component/cards/image/ImageSection';
 import styles from './Home.module.css';
 
+
 const HomeSection = () => {
   return (
     <section id="home" className={styles.homeSection}>
@@ -13,7 +14,9 @@ const HomeSection = () => {
           <ImageSection />
         </div>
       </div>
+    
     </section>
+   
   );
 };
 
