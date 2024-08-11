@@ -9,7 +9,23 @@
     background-color: #fff;
   
   }
-  
+  .productlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 8px;
+
+    flex-direction: column;
+  }
+  .li{
+    width: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    color: #4285f4;
+    transition: color 0.3s;
+  }
   .image {
     width: 100%;
     height: auto;

@@ -1,7 +1,19 @@
 // src/components/ProductDisplay.js
 import React from 'react';
 import Card from '../../component/cards/product/Card';
-import productImage from '../../assets/images/B.jpg';
+import p1 from '../../assets/images/p1.png';
+import p2 from '../../assets/images/p2.png';
+import p3 from '../../assets/images/p3.png';
+import p4 from '../../assets/images/p4.png';
+import p5 from '../../assets/images/p5.png';
+import p6 from '../../assets/images/p6.png';
+import p7 from '../../assets/images/p7.png';
+import p8 from '../../assets/images/p8.png';
+import p9 from '../../assets/images/p9.png';
+import p10 from '../../assets/images/p10.png';
+import p11 from '../../assets/images/p11.png';
+import p12 from '../../assets/images/p12.png';
+
 import ProductCard from '../../component/cards/product/ProductCard';
 import styles from './ProductDisplay.module.css'; // Import CSS module for styles
 
@@ -15,125 +27,96 @@ const ProductDisplay = () => {
       <div className={styles.productWrapper}>
         <ProductCard
           name="Product 1"
-          image={productImage}
+          image={p1}
           rate="★★★★☆"
           instagramLink="https://www.instagram.com/profile1"
         />
         <ProductCard
           name="Product 2"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p2} // Replace with the correct image path
           rate="★★★☆☆"
           instagramLink="https://www.instagram.com/profile2"
         />
         <ProductCard
           name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p3} // Replace with the correct image path
           rate="★★★★★"
           instagramLink="https://www.instagram.com/profile3"
         />
          <ProductCard
           name="Product 1"
-          image={productImage}
+          image={p4}
           rate="★★★★☆"
           instagramLink="https://www.instagram.com/profile1"
         />
         <ProductCard
           name="Product 2"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p5}// Replace with the correct image path
           rate="★★★☆☆"
           instagramLink="https://www.instagram.com/profile2"
         />
         <ProductCard
           name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p6}// Replace with the correct image path
           rate="★★★★★"
           instagramLink="https://www.instagram.com/profile3"
         />
          <ProductCard
           name="Product 1"
-          image={productImage}
+          image={p7}
           rate="★★★★☆"
           instagramLink="https://www.instagram.com/profile1"
         />
         <ProductCard
           name="Product 2"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p8} // Replace with the correct image path
           rate="★★★☆☆"
           instagramLink="https://www.instagram.com/profile2"
         />
         <ProductCard
           name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p9}// Replace with the correct image path
           rate="★★★★★"
           instagramLink="https://www.instagram.com/profile3"
         />
          <ProductCard
           name="Product 1"
-          image={productImage}
+          image={p10}
           rate="★★★★☆"
           instagramLink="https://www.instagram.com/profile1"
         />
         <ProductCard
           name="Product 2"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p11} // Replace with the correct image path
           rate="★★★☆☆"
           instagramLink="https://www.instagram.com/profile2"
         />
         <ProductCard
           name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
+          image={p12} // Replace with the correct image path
           rate="★★★★★"
           instagramLink="https://www.instagram.com/profile3"
         />
-         <ProductCard
+         {/* <ProductCard
           name="Product 1"
-          image={productImage}
+          image={p13}
           rate="★★★★☆"
           instagramLink="https://www.instagram.com/profile1"
-        />
+        /> */}
         <ProductCard
           name="Product 2"
           image="../../assets/images/c.png" // Replace with the correct image path
           rate="★★★☆☆"
           instagramLink="https://www.instagram.com/profile2"
         />
-        <ProductCard
-          name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
-          rate="★★★★★"
-          instagramLink="https://www.instagram.com/profile3"
-        />
-         <ProductCard
+       
+         {/* <ProductCard
           name="Product 1"
-          image={productImage}
+          image={p14}
           rate="★★★★☆"
           instagramLink="https://www.instagram.com/profile1"
-        />
-        <ProductCard
-          name="Product 2"
-          image=
-          "../../assets/images/c.png" // Replace with the correct image path
-          rate="★★★☆☆"
-          instagramLink="https://www.instagram.com/profile2"
-        />
-        <ProductCard
-          name="Product 3"
-          image="../../assets/images/c.png" // Replace with the correct image path
-          rate="★★★★★"
-          instagramLink="https://www.instagram.com/profile3"
-        />
-         <ProductCard
-          name="Product 1"
-          image={productImage}
-          rate="★★★★☆"
-          instagramLink="https://www.instagram.com/profile1"
-        />
-        <ProductCard
-          name="Product 2"
-          image="../../assets/images/c.png" // Replace with the correct image path
-          rate="★★★☆☆"
-          instagramLink="https://www.instagram.com/profile2"
-        />
+        /> */}
+        
       
         {/* Repeat as needed */}
       </div>
