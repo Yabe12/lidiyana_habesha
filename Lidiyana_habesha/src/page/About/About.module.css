@@ -1,0 +1,24 @@
+.aboutUsContainer {
+   
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  .text{
+    margin-top: 490px;
+  }
+  .heading {
+    color: #333;
+  }
+  
+  .paragraph {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .valuesList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
