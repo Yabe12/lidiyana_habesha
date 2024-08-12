@@ -133,53 +133,53 @@ const ProductDisplay = () => {
     
     <ProductListCard 
         image={p1} 
-        text="Sample Product" 
+        text="100$" 
       />
 
           </div>
            <div className={styles.card}>  <ProductListCard 
         image={p2}
-        text="Sample Product" 
+        text="12$" 
       /></div> 
            <div className={styles.card}>  <ProductListCard 
         image={p3} 
-        text="Sample Product" 
+        text="50$" 
       /></div> 
              <div className={styles.card}>  <ProductListCard 
         image={p4} 
-        text="Sample Product" 
+        text="45$" 
       /></div> 
          <div className={styles.card}>    <ProductListCard 
         image={p5}
-        text="Sample Product" 
+        text="12$" 
       /></div> 
            <div className={styles.card}>  <ProductListCard 
         image={p6}
-        text="Sample Product" 
+        text="89$" 
       /></div>
            <div className={styles.card}>   <ProductListCard 
         image={p7}
-        text="Sample Product" 
+        text="500$" 
       /></div> 
           <div className={styles.card}>   <ProductListCard 
         image={p8}
-        text="Sample Product" 
+        text="10$" 
       /></div> 
           <div className={styles.card}>   <ProductListCard 
         image={p9}
-        text="Sample Product" 
+        text="37$" 
       /></div>
             <div className={styles.card}>   <ProductListCard 
         image={p10}
-        text="Sample Product" 
+        text="87$" 
       /></div>
          <div className={styles.card}>    <ProductListCard 
         image={p1}
-        text="Sample Product" 
+        text="90$" 
       /></div> 
          <div className={styles.card}>   <ProductListCard 
         image={p2}
-        text="Sample Product" 
+        text="20$" 
       /></div> 
          {/* <ProductCard
           name="Product 1"
@@ -189,26 +189,21 @@ const ProductDisplay = () => {
         /> */}
           <div className={styles.card}>   <ProductListCard 
         image={p4}
-        text="Sample Product" 
+        text="76$" 
       /></div>
         <div className={styles.card}>    <ProductListCard 
         image={p5}
-        text="Sample Product" 
+        text="67$" 
       /></div> 
          <div className={styles.card}>    <ProductListCard 
         image={p6}
-        text="Sample Product" 
+        text="100$" 
       /></div> 
           <div className={styles.card}>   <ProductListCard 
         image={p7}
-        text="Sample Product" 
+        text="49$" 
       /></div> 
-         {/* <ProductCard
-          name="Product 1"
-          image={p14}
-          rate="★★★★☆"
-          instagramLink="https://www.instagram.com/profile1"
-        /> */}
+       
       
       
         </div>

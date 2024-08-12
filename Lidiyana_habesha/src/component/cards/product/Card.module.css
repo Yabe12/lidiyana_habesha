@@ -9,6 +9,16 @@
     background-color: #fff;
   
   }
+  /* styles.module.css */
+.list {
+  list-style-type: none;
+}
+
+.li a {
+  text-decoration: none;
+  color: inherit; /* Optional: to inherit the color from the parent element */
+}
+
   .productlist{
     display: flex;
     flex-wrap: wrap;
