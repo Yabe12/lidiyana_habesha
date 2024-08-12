@@ -3,7 +3,7 @@
     display: flex;
     height: 700px;
     margin-top: 180px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 .productContainer {
     overflow: hidden; /* Hide the scrollbars */
@@ -14,7 +14,29 @@
     height: 350px; /* Adjust height as needed */
     background-color: hsl(330, 50%, 99%); /* Background color */
   }
+  .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
   
+  @media (max-width: 1200px) {
+    .cardcontainer {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .cardcontainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
   .productWrapper {
     display: flex;
     flex-wrap: nowrap;

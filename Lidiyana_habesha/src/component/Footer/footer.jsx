@@ -15,7 +15,7 @@ const Footer = () => {
           <div className={`${styles.mb4} ${styles.mdMb0}`}>
             <h4 className={`${styles.textLg} ${styles.fontBold} ${styles.textGray800} ${styles.mb2}`}>Contact Us</h4>
             <p className={`${styles.textGray700}`}>
-              Email: <a href="mailto:info@lidiyana.com" className={`${styles.textRose500} ${styles.hoverTextRose600}`}>info@lidiyana.com</a>
+              Email: <a href="Lidiyasolomon199@gmail.com" className={`${styles.textRose500} ${styles.hoverTextRose600}`}>info@lidiyana.com</a>
             </p>
             <p className={`${styles.textGray700}`}>
               Phone: <a href="tel:+1234567890" className={`${styles.textRose500} ${styles.hoverTextRose600}`}>+1 (234) 567-890</a>
@@ -41,3 +41,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

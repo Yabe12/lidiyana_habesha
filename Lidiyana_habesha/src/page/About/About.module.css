@@ -3,6 +3,7 @@
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 200px;
     font-family: Arial, sans-serif;
   }
   .text{
@@ -10,8 +11,15 @@
   }
   .heading {
     color: #333;
+    font-family: Gupter, sans-serif;
+ 
   }
-  
+  .nameofower{
+    font-size: 1.5rem;
+    font-weight:200;
+    font-family: 'Whisper', sans-serif;
+    margin-bottom: 20px;
+  }
   .paragraph {
     color: #666;
     line-height: 1.6;

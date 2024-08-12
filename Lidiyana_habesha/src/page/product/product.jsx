@@ -16,9 +16,11 @@ import p12 from '../../assets/images/p12.png';
 
 import ProductCard from '../../component/cards/product/ProductCard';
 import styles from './ProductDisplay.module.css'; // Import CSS module for styles
+import ProductListCard from '../../component/cards/product/productlistcard';
 
 const ProductDisplay = () => {
   return (
+    <div>
     <div className={styles.whole}>
       <div className={styles.leader}>
         <Card />
@@ -125,6 +127,91 @@ const ProductDisplay = () => {
 
 
     
+    </div>
+    <div className={styles.cardcontainer}>
+    <div className={styles.card}>
+    
+    <ProductListCard 
+        image={p1} 
+        text="Sample Product" 
+      />
+
+          </div>
+           <div className={styles.card}>  <ProductListCard 
+        image={p2}
+        text="Sample Product" 
+      /></div> 
+           <div className={styles.card}>  <ProductListCard 
+        image={p3} 
+        text="Sample Product" 
+      /></div> 
+             <div className={styles.card}>  <ProductListCard 
+        image={p4} 
+        text="Sample Product" 
+      /></div> 
+         <div className={styles.card}>    <ProductListCard 
+        image={p5}
+        text="Sample Product" 
+      /></div> 
+           <div className={styles.card}>  <ProductListCard 
+        image={p6}
+        text="Sample Product" 
+      /></div>
+           <div className={styles.card}>   <ProductListCard 
+        image={p7}
+        text="Sample Product" 
+      /></div> 
+          <div className={styles.card}>   <ProductListCard 
+        image={p8}
+        text="Sample Product" 
+      /></div> 
+          <div className={styles.card}>   <ProductListCard 
+        image={p9}
+        text="Sample Product" 
+      /></div>
+            <div className={styles.card}>   <ProductListCard 
+        image={p10}
+        text="Sample Product" 
+      /></div>
+         <div className={styles.card}>    <ProductListCard 
+        image={p1}
+        text="Sample Product" 
+      /></div> 
+         <div className={styles.card}>   <ProductListCard 
+        image={p2}
+        text="Sample Product" 
+      /></div> 
+         {/* <ProductCard
+          name="Product 1"
+          image={p13}
+          rate="★★★★☆"
+          instagramLink="https://www.instagram.com/profile1"
+        /> */}
+          <div className={styles.card}>   <ProductListCard 
+        image={p4}
+        text="Sample Product" 
+      /></div>
+        <div className={styles.card}>    <ProductListCard 
+        image={p5}
+        text="Sample Product" 
+      /></div> 
+         <div className={styles.card}>    <ProductListCard 
+        image={p6}
+        text="Sample Product" 
+      /></div> 
+          <div className={styles.card}>   <ProductListCard 
+        image={p7}
+        text="Sample Product" 
+      /></div> 
+         {/* <ProductCard
+          name="Product 1"
+          image={p14}
+          rate="★★★★☆"
+          instagramLink="https://www.instagram.com/profile1"
+        /> */}
+      
+      
+        </div>
     </div>
   );
 };

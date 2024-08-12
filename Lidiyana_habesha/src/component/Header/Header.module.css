@@ -1,6 +1,6 @@
 /* src/components/Header.module.css */
 .header {
-  background-color: #fbd5e1;
+  background-color:  #f7e6eb;
   padding: 10px 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -31,15 +31,15 @@
   text-decoration: none;
   color: #333;
   font-weight: 100;
-  font-size: 3.0rem;
-  font-family: 'Whisper', sans-serif;
+  font-size: 1.5rem;
+
   transition: color 0.3s;
 }
 .logo {
 
   font-family: 'Grey Qo', sans-serif;
   font-weight: bolder;
-  font-size: 3.9rem; /* Adjust size as needed */
+  font-size: 3.2rem; /* Adjust size as needed */
   /* font-weight: bold; */
   
 }
