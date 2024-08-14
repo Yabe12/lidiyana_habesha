@@ -51,12 +51,14 @@ const ProductListCard = ({ image, text }) => {
           >
             -
           </button>
-          <input
-            type="number"
+          <div className={styles.input}>
+          <input type="number"
             value={count}
             onChange={handleInputChange}
             min="1"
           />
+          </div>
+            
           <button
             className={styles.counter_button}
             id="increment"
