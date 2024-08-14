@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.css'; // Import the CSS module
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className={`${styles.mb4} ${styles.mdMb0}`}>
             <h4 className={`${styles.textLg} ${styles.fontBold} ${styles.textGray800} ${styles.mb2}`}>Contact Us</h4>
             <p className={`${styles.textGray700}`}>
-              Email: <a href="Lidiyasolomon199@gmail.com" className={`${styles.textRose500} ${styles.hoverTextRose600}`}>info@lidiyana.com</a>
+              Email: <a href="mailto:Lidiyasolomon199@gmail.com" className={`${styles.textRose500} ${styles.hoverTextRose600}`}>info@lidiyana.com</a>
             </p>
             <p className={`${styles.textGray700}`}>
               Phone: <a href="tel:+1234567890" className={`${styles.textRose500} ${styles.hoverTextRose600}`}>+1 (234) 567-890</a>
@@ -25,10 +25,18 @@ const Footer = () => {
           <div className={`${styles.mb4} ${styles.mdMb0}`}>
             <h4 className={`${styles.textLg} ${styles.fontBold} ${styles.textGray800} ${styles.mb2}`}>Follow Us</h4>
             <div className={`${styles.flex} ${styles.justifyCenter} ${styles.spaceX4}`}>
-              <a href="#" className={`${styles.textGray700} ${styles.hoverTextRose500}`}><i className="fab fa-facebook-f fa-lg"></i></a>
-              <a href="#" className={`${styles.textGray700} ${styles.hoverTextRose500}`}><i className="fab fa-twitter fa-lg"></i></a>
-              <a href="#" className={`${styles.textGray700} ${styles.hoverTextRose500}`}><i className="fab fa-instagram fa-lg"></i></a>
-              <a href="#" className={`${styles.textGray700} ${styles.hoverTextRose500}`}><i className="fab fa-youtube fa-lg"></i></a>
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className={`${styles.textGray700} ${styles.hoverTextRose500}`}>
+                <i className="fab fa-facebook-f fa-lg"></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className={`${styles.textGray700} ${styles.hoverTextRose500}`}>
+                <i className="fab fa-twitter fa-lg"></i>
+              </a>
+              <a href="https://www.instagram.com/lidiana_solomon/?hl=en" target="_blank" rel="noopener noreferrer" className={`${styles.textGray700} ${styles.hoverTextRose500}`}>
+                <i className="fab fa-instagram fa-lg"></i>
+              </a>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className={`${styles.textGray700} ${styles.hoverTextRose500}`}>
+                <i className="fab fa-youtube fa-lg"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -41,4 +49,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
