@@ -5,6 +5,7 @@ import HomeSection from './page/Home/Home';
 import ProductDisplay from './page/product/product';
 import About from './page/About/About';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Home from './page/Home/HomePage';
 
 // import ContactForm from './page/contact/Contact';
 
@@ -13,6 +14,7 @@ const App = () => {
     <Router>
     <Layout>
      <HomeSection/>
+     {/* <Home/> */}
      <ProductDisplay/>
     
      <About/>

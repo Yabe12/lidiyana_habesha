@@ -1,0 +1,77 @@
+.home {
+    padding: 20px;
+  }
+  
+  .hero {
+    background: url('/images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .heroContent h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .heroContent p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ctaButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #b22222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .featuredCategories, .deals, .bestSellers, .testimonials {
+    margin: 20px 0;
+  }
+  
+  .categoryGrid, .dealGrid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .categoryCard, .dealCard, .sellerCard {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .categoryCard img, .dealCard img, .sellerCard img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .dealCard {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .originalPrice {
+    text-decoration: line-through;
+  }
+  
+  .discountedPrice {
+    color: #b22222;
+  }
+  
+  .testimonialSlider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonialCard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  

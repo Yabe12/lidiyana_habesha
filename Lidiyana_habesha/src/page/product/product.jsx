@@ -128,6 +128,9 @@ const ProductDisplay = () => {
 
     
     </div>
+    <div className={styles.catagory}>
+      llllllll????????
+    </div>
     <div className={styles.cardcontainer}>
     <div className={styles.card}>
     
