@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
   margin: 100px;
   /* padding: 50px; */
   background-color: #faf5f6;
@@ -16,6 +16,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+
   max-width: 700px;
   position: relative;
 }
