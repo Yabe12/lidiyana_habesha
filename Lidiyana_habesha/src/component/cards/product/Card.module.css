@@ -1,15 +1,14 @@
 .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 100%; /* Allow the card to take full width on smaller screens */
-    max-width: 300px; /* Limit the width on larger screens */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-  
-  }
-  /* styles.module.css */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%; /* Allow the card to take full width on smaller screens */
+  max-width: 300px; /* Limit the width on larger screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: serif;
+  background-color: #fff;
+}
+/* styles.module.css */
 .list {
   list-style-type: none;
 }
@@ -19,91 +18,90 @@
   color: inherit; /* Optional: to inherit the color from the parent element */
 }
 
-  .productlist{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
+.productlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
 
-    flex-direction: column;
-  }
-  .button {
-    background-color: #f5b0a7; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 9px;
-    text-align: center;
+  flex-direction: column;
+}
+.button {
+  background-color: #f5b0a7; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 9px;
+  text-align: center;
 
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.li {
+  width: 100%;
+  margin-bottom: 16px;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: #4285f4;
+  transition: color 0.3s;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  padding: 16px;
+  text-align: center;
+}
+
+.text span {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 100;
+  font-size: 3rem;
+  font-family: serif;
+  transition: color 0.3s;
+}
+
+.text p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%; /* Reduce max-width for tablets and smaller devices */
   }
-  
-  .li{
-    width: 100%;
-    margin-bottom: 16px;
-    text-align: center;
-    overflow: hidden;
-    text-decoration: none;
-    color: #4285f4;
-    transition: color 0.3s;
-  }
-  .image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .text {
-    padding: 16px;
-    text-align: center;
-  }
-  
+
   .text span {
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 100;
-    font-size: 3.0rem;
-    font-family: 'Whisper', sans-serif;
-    transition: color 0.3s;
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
   }
-  
+
   .text p {
-    font-size: 16px;
-    color: #333;
+    font-size: 14px; /* Adjust paragraph font size for smaller screens */
   }
-  
-  /* Media Queries for Responsive Design */
-  
-  @media (max-width: 768px) {
-    .card {
-      max-width: 90%; /* Reduce max-width for tablets and smaller devices */
-    }
-  
-    .text span {
-      font-size: 2.5rem; /* Adjust font size for smaller screens */
-    }
-  
-    .text p {
-      font-size: 14px; /* Adjust paragraph font size for smaller screens */
-    }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%; /* Allow full width on very small devices */
   }
-  
-  @media (max-width: 480px) {
-    .card {
-      max-width: 100%; /* Allow full width on very small devices */
-    }
-  
-    .text span {
-      font-size: 2rem; /* Further adjust font size for mobile phones */
-    }
-  
-    .text p {
-      font-size: 12px; /* Further adjust paragraph font size for mobile phones */
-    }
+
+  .text span {
+    font-size: 2rem; /* Further adjust font size for mobile phones */
   }
-  
+
+  .text p {
+    font-size: 12px; /* Further adjust paragraph font size for mobile phones */
+  }
+}
