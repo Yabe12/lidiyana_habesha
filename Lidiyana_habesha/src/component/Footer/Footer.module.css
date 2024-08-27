@@ -1,87 +1,86 @@
 /* Footer.module.css */
 
 .footer {
-    background-color: #ffe4e6;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 0.5rem;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .flexCol {
-    flex-direction: column;
-  }
-  
-  .mdFlexRow {
-    flex-direction: row;
-  }
-  
-  .justifyBetween {
-    justify-content: space-between;
-  }
-  
-  .itemsCenter {
-    align-items: center;
-  }
-  
-  .mb4 {
-    margin-bottom: 1rem;
-  }
-  
-  .mdMb0 {
-    margin-bottom: 0;
-  }
-  
-  .textLg {
-    font-size: 1.125rem;
-  }
-  
-  .fontBold {
-    font-weight: bold;
-  }
-  
-  .textGray800 {
-    color: #4b5563;
-  }
-  
-  .mb2 {
-    margin-bottom: 0.5rem;
-  }
-  
-  .textGray700 {
-    color: #374151;
-  }
-  
-  .textRose500 {
-    color: #f43f5e;
-  }
-  
-  .hoverTextRose600:hover {
-    color: #e11d48;
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .justifyCenter {
-    justify-content: center;
-  }
-  
-  .spaceX4 > * + * {
-    margin-left: 1rem;
-  }
-  
-  .textSm {
-    font-size: 0.875rem;
-  }
-  
+  background-color: #ffe4e6;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0px 100px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+.mdFlexRow {
+  flex-direction: row;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.itemsCenter {
+  align-items: center;
+}
+
+.mb4 {
+  margin-bottom: 1rem;
+}
+
+.mdMb0 {
+  margin-bottom: 0;
+}
+
+.textLg {
+  font-size: 1.125rem;
+}
+
+.fontBold {
+  font-weight: bold;
+}
+
+.textGray800 {
+  color: #4b5563;
+}
+
+.mb2 {
+  margin-bottom: 0.5rem;
+}
+
+.textGray700 {
+  color: #374151;
+}
+
+.textRose500 {
+  color: #f43f5e;
+}
+
+.hoverTextRose600:hover {
+  color: #e11d48;
+}
+
+.flex {
+  display: flex;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.spaceX4 > * + * {
+  margin-left: 1rem;
+}
+
+.textSm {
+  font-size: 0.875rem;
+}

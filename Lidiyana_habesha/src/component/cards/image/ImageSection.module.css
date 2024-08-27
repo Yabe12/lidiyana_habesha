@@ -6,48 +6,41 @@
   border-top-left-radius: 105px;
   border-top-right-radius: 105px;
   border-bottom-left-radius: 90px;
-      border-bottom-right-radius: 90px;
-  
+  border-bottom-right-radius: 90px;
+
   height: 650px;
   padding: 1rem; /* Add padding for better spacing */
   overflow: hidden; /* Hide overflow to ensure image does not go outside container */
   .imageContainer {
-    background-color: #f8f6f7; 
+    background-color: #f8f6f7;
     height: fit-content;
     border-radius: 0.5rem;
     border-top-left-radius: 115px;
-      border-top-right-radius: 115px;
-      border-bottom-left-radius: 90px;
-      border-bottom-right-radius: 90px;
-    
-   
+    border-top-right-radius: 115px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+
     display: flex;
     justify-content: center; /* Center the image horizontally */
     align-items: center; /* Center the image vertically */
     overflow: hidden; /* Hide any overflow */
-  .image{
-    height: fit-content;
-    border-radius: 0.5rem;
-    border-top-left-radius: 235px;
+    .image {
+      height: fit-content;
+      border-radius: 0.5rem;
+      border-top-left-radius: 235px;
       border-top-right-radius: 235px;
-    
-   
-    display: flex;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
-    overflow: hidden; /* Hide any overflow */
+
+      display: flex;
+      justify-content: center; /* Center the image horizontally */
+      align-items: center; /* Center the image vertically */
+      overflow: hidden; /* Hide any overflow */
     }
   }
-  }
+}
 
-
-  
-  /* Optional: Additional media queries */
+/* Optional: Additional media queries */
 @media (max-width: 768px) {
-   
-  }
-  
-  @media (max-width: 480px) {
-   
-  }
-  
+}
+
+@media (max-width: 480px) {
+}

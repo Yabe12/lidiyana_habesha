@@ -1,0 +1,21 @@
+/* AboutImg.module.css */
+
+.imageSection {
+  margin-right: 100px;
+  margin-bottom: 100px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.imageContainer {
+  max-width: 900px; /* Set the maximum width of the container */
+  width: 100%; /* Ensures the container is responsive */
+}
+
+.image img {
+  width: 100%; /* Image will fill the container width */
+  height: 400px; /* Maintains aspect ratio */
+
+  object-fit: contain; /* Ensures image scales nicely within container */
+}
