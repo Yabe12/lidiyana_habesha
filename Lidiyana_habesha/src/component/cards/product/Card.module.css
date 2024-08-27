@@ -22,15 +22,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
-
+  /* padding: 10px; */
+  padding-right: 30px;
   flex-direction: column;
 }
 .button {
   background-color: #f5b0a7; /* Green */
   border: none;
   color: white;
-  padding: 8px 9px;
+  padding-left: 20px;
+  padding-right: 15px;
   text-align: center;
 
   text-decoration: none;
