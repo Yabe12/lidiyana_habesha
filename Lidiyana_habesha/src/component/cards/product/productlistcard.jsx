@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { Rating } from "@mui/material";
 
-import styles from "./ProductListCard.module.css"; 
+import styles from "./ProductListCard.module.css";
 
 const ProductListCard = ({ image, text }) => {
   const [rating, setRating] = useState(0);
   const [count, setCount] = useState(1);
 
   const handleIncrement = () => {
-    setCount(prevCount => prevCount + 1); 
+    setCount((prevCount) => prevCount + 1);
   };
 
   const handleDecrement = () => {
-    setCount(prevCount => (prevCount > 1 ? prevCount - 1 : 1)); 
+    setCount((prevCount) => (prevCount > 1 ? prevCount - 1 : 1));
   };
 
   const handleInputChange = (e) => {
@@ -30,18 +30,7 @@ const ProductListCard = ({ image, text }) => {
       <div className={styles.text}>
         <span className={styles.productName}>{text}</span>
       </div>
-      {/* Uncomment if needed
-      <button
-        className={styles.icon}
-        onClick={handleClick}
-        style={{
-          backgroundColor: isClicked ? 'green' : 'white',
-          color: isClicked ? 'white' : 'black', 
-        }}
-      >
-        🛒
-      </button>
-      */}
+
       <div className={styles.cart_button}>
         <div className={styles.count}>
           <button
@@ -52,13 +41,14 @@ const ProductListCard = ({ image, text }) => {
             -
           </button>
           <div className={styles.input}>
-          <input type="number"
-            value={count}
-            onChange={handleInputChange}
-            min="1"
-          />
+            <input
+              type="number"
+              value={count}
+              onChange={handleInputChange}
+              min="1"
+            />
           </div>
-            
+
           <button
             className={styles.counter_button}
             id="increment"

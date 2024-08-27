@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import styles from './Header.module.css';
-import LogoSection from '../logo/LogoSection';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,11 +12,9 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.logo}>
-          LIDIYANA_HABEHA
-        </div>
+        <div className={styles.logo}>LIDIYANA_HABEHA</div>
         <div
-          className={`${styles.hamburger} ${menuOpen ? styles.active : ''}`}
+          className={`${styles.hamburger} ${menuOpen ? styles.active : ""}`}
           onClick={toggleMenu}
         >
           <div></div>
@@ -24,11 +22,19 @@ const Header = () => {
           <div></div>
         </div>
         <nav>
-          <ul className={`${styles.navList} ${menuOpen ? styles.active : ''}`}>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <ul className={`${styles.navList} ${menuOpen ? styles.active : ""}`}>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/products">Product</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
       </div>
